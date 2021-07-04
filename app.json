@@ -61,8 +61,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "moussa-pro",
+      "description": "هذا اسم السورس. اتركه كما هو",
+      "value": "MOUSSA-PRO",
       "required": false
     }
   },

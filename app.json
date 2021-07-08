@@ -62,7 +62,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "هذا اسم السورس. اتركه كما هو",
-      "value": "MOUSSA-PRO",
+      "value": "moussa-bot",
       "required": false
     }
   },

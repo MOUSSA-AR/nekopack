@@ -3,7 +3,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "MOUSSA-PRO" ]]
+    if [[ $UPSTREAM_REPO == "moussa-bot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL01PVVNTQS1BUi9tb3Vzc2EtYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -23,7 +23,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "MOUSSA-PRO" ]]
+    if [[ $UPSTREAM_REPO == "moussa-bot" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL01PVVNTQS1BUi9tb3Vzc2EtYm90" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
